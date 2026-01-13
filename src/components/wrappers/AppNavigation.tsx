@@ -1,13 +1,10 @@
 "use client";
 import usePageScroll from "@/hooks/usePageScroll";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 const AppNavigation = () => {
   const { active } = usePageScroll();
-  const router = useRouter();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -32,6 +29,7 @@ const AppNavigation = () => {
             alt="Logo"
             fill
             style={{objectFit: "contain"}}
+            loading="eager"
           />
         </span>
         <div
