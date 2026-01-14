@@ -21,13 +21,13 @@ const carousel1: Slide[] = [
 ];
 
 const carousel2: Slide[] = [
-//   {image: "/carousel/carousel-004.png"},
+  {image: "/carousel/carousel-001.jpg"},
+  {image: "/carousel/carousel-002.png"},
+  {image: "/carousel/carousel-003.png"},
+  {image: "/carousel/carousel-004.png"},
   {image: "/carousel/carousel-005.jpg"},
   {image: "/carousel/carousel-006.png"},
   {image: "/carousel/carousel-007.png"},
-  {image: "/carousel/carousel-001.jpg"},
-//   {image: "/carousel/carousel-002.png"},
-  {image: "/carousel/carousel-003.png"},
 ];
 
 const CarouselSection = () => {
@@ -65,36 +65,13 @@ const CarouselSection = () => {
           loop={true}
           modules={[Autoplay, Navigation, Pagination]}
           spaceBetween={20}
-          slidesPerView={2}
-          className="relative w-full h-70"
-          navigation={false}
-        >
-          {carousel1.map((item, index) => (
-            <SwiperSlide key={index}
-              className="relative w-165 h-64.75"
-            >
-              <Image
-                src={item.image}
-                alt={`Picture ${index + 1}`}
-                fill
-                style={{objectFit: "contain"}}
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        <Swiper
-          pagination={false}
-          autoplay={true}
-          loop={true}
-          modules={[Autoplay, Navigation, Pagination]}
-          spaceBetween={20}
-          slidesPerView={2}
-          className="relative w-full h-70"
+          slidesPerView={1}
+          className="relative w-full h-125"
           navigation={false}
         >
           {carousel2.map((item, index) => (
             <SwiperSlide key={index}
-              className="relative w-165 h-64.75"
+              className="relative w-304 h-120"
             >
               <Image
                 src={item.image}
