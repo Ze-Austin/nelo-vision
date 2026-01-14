@@ -55,6 +55,13 @@ h1 {
   line-height: 38px;
 }
 
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+  color: var(--primary);
+}
+
 h5 {
   font-size: 20px;
   font-weight: 500;
@@ -70,6 +77,12 @@ h6 {
   color: var(--gray32);
 }
 
+.text-xl {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
 .text-lg {
   font-size: 15px;
   font-weight: 500;
@@ -80,6 +93,19 @@ h6 {
   font-size: 13px;
   font-weight: 400;
   line-height: 19px;
+}
+
+.text-sm {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.text-xs {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
 }
 
 .text-hero {
@@ -173,6 +199,10 @@ h6 {
     font-weight: 600;
     line-height: 55px;
   }
+  h4 {
+    font-size: 44px;
+    line-height: 44px;
+  }
   h5 {
     font-size: 32px;
     line-height: 40px;
@@ -181,6 +211,10 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
+  .text-xl {
+    font-size: 22px;
+    line-height: 27px;
+  }
   .text-lg {
     font-size: 22px;
     line-height: 30px;
@@ -188,6 +222,14 @@ h6 {
   .text-md {
     font-size: 18px;
     line-height: 25px;
+  }
+  .text-sm {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .text-xs {
+    font-size: 16px;
+    line-height: 24px;
   }
   .text-hero {
     font-size: 18px;
