@@ -35,7 +35,7 @@ const CarouselSection = () => {
     <section className="px-4 lg:px-8 pt-4 pb-8">
       <div className="block lg:hidden">
         <Swiper
-          pagination={{ type: "bullets", clickable: true }}
+          pagination={false}
           autoplay={true}
           loop={true}
           modules={[Autoplay, Navigation, Pagination]}
