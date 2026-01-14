@@ -11,6 +11,7 @@
   --orange: #E3A000;
   --darkCyan: #02341B;
   --greenTeal: #0DDD74;
+  --gray32: #525252;
 }
 
 @theme {
@@ -51,6 +52,27 @@ h1 {
   font-size: 38px;
   font-weight: 700;
   line-height: 38px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  color: var(--primary);
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--gray32);
+}
+
+.text-md {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
 }
 
 .text-hero {
@@ -144,9 +166,20 @@ h1 {
     font-weight: 600;
     line-height: 55px;
   }
+  h5 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h6 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .text-md {
+    font-size: 18px;
+    line-height: 26px;
+  }
   .text-hero {
     font-size: 18px;
-    font-weight: 400;
     line-height: 27px;
   }
   .text-intro {

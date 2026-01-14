@@ -8,10 +8,8 @@ export default function Home() {
     <main>
       <HeroSection />
       <CarouselSection />
-      <div className="">
-        <IntroSection />
-        <AboutSection />
-      </div>
+      <IntroSection />
+      <AboutSection />
     </main>
   );
 }
