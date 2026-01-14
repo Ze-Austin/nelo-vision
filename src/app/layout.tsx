@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import "./globals.css";
 import AppNavigation from "@/components/wrappers/AppNavigation";
+import Footer from "@/components/wrappers/Footer";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -9,7 +10,7 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: "Visioneering 2026 with Nelo",
+  title: "Visioneering 2026",
   description: "Visioneering 2026 with Nelo Nwokike",
 };
 
@@ -25,6 +26,7 @@ export default function RootLayout({
       >
         <AppNavigation />
         {children}
+        <Footer />
       </body>
     </html>
   );
