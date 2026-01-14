@@ -5,6 +5,7 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <section
+      id="intro"
       className="relative flex items-center justify-center mt-20 lg:mt-40 px-4 lg:px-0"
     >
       <div className="flex flex-col gap-8 lg:gap-12 py-8">
