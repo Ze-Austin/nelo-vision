@@ -1,9 +1,11 @@
+import CarouselSection from "@/modules/CarouselSection";
 import HeroSection from "@/modules/HeroSection";
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <HeroSection />
+      <CarouselSection />
     </main>
   );
 }
