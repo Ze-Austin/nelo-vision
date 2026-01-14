@@ -15,10 +15,26 @@ const AppNavigation = () => {
 
   return (
     <nav
-      className="fixed top-8 z-10 w-full px-16"
+      className="fixed top-12 lg:top-8 z-10 w-full px-4 lg:px-16"
     >
       <div
-        className={`flex justify-between items-center px-16 py-4 rounded-[20px] overflow-x-hidden bg-(--bgTint) duration-500 transition-all ease-in-out ${active ? "transform backdrop-blur-[20px]" : ""}`}
+        className={`flex lg:hidden w-fit p-1 duration-500 transition-all ease-in-out ${active ? "transform backdrop-blur-[20px]" : ""}`}
+      >
+        <span
+          onClick={() => scrollToSection("/#intro")}
+          className="relative w-26 h-6 cursor-pointer transition hover:scale-105"
+        >
+          <Image
+            src={"logo.svg"}
+            alt="Logo"
+            fill
+            style={{objectFit: "contain"}}
+            loading="eager"
+          />
+        </span>
+      </div>
+      <div
+        className={`hidden lg:flex justify-between items-center px-16 py-4 rounded-[20px] overflow-x-hidden bg-(--bgTint) duration-500 transition-all ease-in-out ${active ? "transform opacity-96" : ""}`}
       >
         <span
           onClick={() => scrollToSection("/#intro")}
