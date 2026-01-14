@@ -5,7 +5,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer
-      className="flex items-center justify-center bg-(--darkCyan) text-background"
+      className="hidden lg:flex items-center justify-center bg-(--darkCyan) text-background"
     >
       <div className="relative flex flex-col gap-16 px-16 pt-12 pb-4 w-full">
         <div className="flex flex-col gap-12 items-center">

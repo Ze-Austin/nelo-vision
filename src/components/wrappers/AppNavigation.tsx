@@ -15,7 +15,7 @@ const AppNavigation = () => {
 
   return (
     <nav
-      className="fixed top-12 lg:top-8 z-10 w-full px-4 lg:px-16"
+      className="fixed top-8 z-10 w-full px-4 lg:px-16"
     >
       <div
         className={`flex lg:hidden w-fit p-1 duration-500 transition-all ease-in-out ${active ? "transform backdrop-blur-[20px]" : ""}`}
