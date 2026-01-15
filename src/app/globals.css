@@ -125,22 +125,22 @@ h6 {
 }
 
 .text-footer {
-  font-size: 30px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 37px;
+  line-height: 19px;
   text-align: center;
 }
 
 .text-copy {
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 500;
-  line-height: 40px;
+  line-height: 16px;
 }
 
 .text-slogan {
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 86px;
+  line-height: 50px;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -188,9 +188,9 @@ h6 {
 }
 
 .btn-lg {
-  width: 324px;
-  height: 64px;
-  font-size: 18px;
+  width: 247px;
+  height: 47px;
+  font-size: 13px;
 }
 
 @media (min-width: 64rem) {
@@ -239,11 +239,28 @@ h6 {
     font-size: 16px;
     line-height: 25px;
   }
+  .text-footer  {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .text-copy {
+    font-size: 14px;
+    line-height: 40px;
+  }
+  .text-slogan {
+    font-size: 20px;
+    line-height: 86px;
+  }
   .btn {
     height: 38px;
     font-size: 14px;
   }
   .btn-md {
     width: 224px;
+  }
+  .btn-lg {
+    width: 324px;
+    height: 64px;
+    font-size: 18px;
   }
 }
