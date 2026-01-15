@@ -56,6 +56,7 @@ const AboutSection = () => {
               fill
               style={{objectFit: "cover"}}
               loading="eager"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
             <span
               className="absolute bottom-0 left-0 -z-1 w-56.5 h-62 bg-linear-to-bl from-[#0DDD74]/60 via-[#D9A124]/60 to-background"
@@ -68,6 +69,7 @@ const AboutSection = () => {
               fill
               style={{objectFit: "cover"}}
               loading="eager"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
             <span
               className="absolute bottom-0 left-0 -z-1 w-full h-190 bg-linear-to-bl from-[#0DDD74]/60 via-[#D9A124]/60 to-background"
