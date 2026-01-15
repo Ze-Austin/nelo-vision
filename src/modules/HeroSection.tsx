@@ -10,7 +10,7 @@ const HeroSection = () => {
     >
       <div className="flex flex-col gap-8 lg:gap-12 py-8">
         <div className="relative flex flex-col items-center">
-          <h1 className="text-center text-(--primary) max-w-71.75 lg:max-w-151.5 ">
+          <h1 className="text-center text-(--primary) max-w-71.75 lg:max-w-160 ">
             VISIONEERING 2026 with NELO
           </h1>
           <span
