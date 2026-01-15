@@ -12,7 +12,7 @@ const Footer = () => {
           <span className="text-footer max-w-193.75">
             Visioneering Retreat 2026 is the bridge that gets you to unlock crystal-clear blueprints, precise patterning, and navigation systems required to steer through the storms of 2026.
           </span>
-          <button type="button" className="btn btn-lg">
+          <button type="button" className="btn btn-xl">
             Begin your visiononeering journey
           </button>
         </div>

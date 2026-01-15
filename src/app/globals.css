@@ -244,6 +244,12 @@ h6 {
   font-size: 12px;
 }
 
+.btn-xl {
+  width: 241px;
+  height: 48px;
+  font-size: 14px;
+}
+
 .btn-ticket {
   width: 91px;
   height: 18px;
@@ -398,6 +404,11 @@ h6 {
     width: 224px;
   }
   .btn-lg {
+    width: 280px;
+    height: 48px;
+    font-size: 16px;
+  }
+  .btn-xl {
     width: 324px;
     height: 64px;
     font-size: 18px;
