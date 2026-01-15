@@ -6,6 +6,7 @@ import HeroSection from "@/modules/HeroSection";
 import IntroSection from "@/modules/IntroSection";
 import PromiseSection from "@/modules/PromiseSection";
 import TargetSection from "@/modules/TargetSection";
+import TestimonialSection from "@/modules/TestimonialSection";
 import TicketSection from "@/modules/TicketSection";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <PromiseSection />
       <TargetSection />
       <TicketSection />
+      <TestimonialSection />
     </main>
   );
 }

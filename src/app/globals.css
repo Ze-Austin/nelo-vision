@@ -14,6 +14,7 @@
   --greenTeal: #0DDD74;
   --gray32: #525252;
   --borderColor: #C0C0C0;
+  --swiper-pagination-color: #FFFFFF;
 }
 
 @theme {
@@ -179,6 +180,21 @@ h6 {
   font-weight: 500;
   line-height: 18px;
   font-style: italic;
+}
+
+.text-name {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 100%;
+  text-align: center;
+  color: var(--primary);
+}
+
+.text-quote {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 17px;
+  color: var(--black);
 }
 
 .text-footer {
@@ -353,6 +369,14 @@ h6 {
   .text-ticket-ft {
     font-size: 15px;
     line-height: 30px;
+  }
+  .text-name {
+    font-size: 44px;
+    color: var(--background);
+  }
+  .text-quote {
+    font-size: 23px;
+    line-height: 45px;
   }
   .text-footer  {
     font-size: 30px;
