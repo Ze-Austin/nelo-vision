@@ -21,7 +21,7 @@ const ExperienceSection = () => {
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-1 md:px-0"
       >
         <div
-          className="flex flex-col gap-4 px-4 py-6 h-77.25 lg:h-120 rounded-xl bg-[#EFF7F0]"
+          className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#EFF7F0]"
         >
           <div
             className="flex items-center justify-between"
@@ -40,13 +40,16 @@ const ExperienceSection = () => {
             </span>
           </div>
           <div className="flex flex-col text-sm">
+            <span className="font-medium">
+              Arsenals for Acceleration
+            </span>
             <span>
               Our Insight-immersed Sessions are acceleration chambers - delivering spiritual tools, guided declarations, and strategic activation that restore agency, awaken creativity, and unlock economic pathways for dominion and decisive execution.
             </span>
           </div>
         </div>
         <div
-          className="flex flex-col gap-4 px-4 py-6 h-77.25 lg:h-120 rounded-xl bg-[#FFFAED]"
+          className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#FFFAED]"
         >
           <div
             className="flex items-center justify-between"
@@ -71,7 +74,7 @@ const ExperienceSection = () => {
           </div>
         </div>
         <div
-          className="flex flex-col gap-4 px-4 py-6 h-77.25 lg:h-120 rounded-xl bg-[#FFF7F1]"
+          className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#FFF7F1]"
         >
           <div
             className="flex items-center justify-between"
@@ -96,7 +99,7 @@ const ExperienceSection = () => {
           </div>
         </div>
         <div
-          className="flex flex-col gap-4 px-4 py-6 h-77.25 lg:h-120 rounded-xl bg-[#FFF7F1]"
+          className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#FFF7F1]"
         >
           <div
             className="flex items-center justify-between"
@@ -121,7 +124,7 @@ const ExperienceSection = () => {
           </div>
         </div>
         <div
-          className="flex flex-col gap-4 px-4 py-6 h-77.25 lg:h-120 rounded-xl bg-[#EFF7F0]"
+          className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#EFF7F0]"
         >
           <div
             className="flex items-center justify-between"
@@ -129,9 +132,9 @@ const ExperienceSection = () => {
             <span className="text-xl max-w-50 lg:max-w-66">
               Strategic Relationships & High-Impact Alliances
             </span>
-            <span className="relative w-9.5 h-9.5 md:w-13.25 md:h-13.25">
+            <span className="relative w-13.5 h-8.25 md:w-17 md:h-10.5">
               <Image
-                src={"/exp/clover.svg"}
+                src={"/exp/handshake.svg"}
                 alt="Nelo Nwokike"
                 fill
                 style={{objectFit: "contain"}}
@@ -146,7 +149,7 @@ const ExperienceSection = () => {
           </div>
         </div>
         <div
-          className="flex flex-col gap-4 px-4 py-6 h-77.25 lg:h-120 rounded-xl bg-[#FFFAED]"
+          className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#FFFAED]"
         >
           <div
             className="flex items-center justify-between"
@@ -154,9 +157,9 @@ const ExperienceSection = () => {
             <span className="text-xl max-w-50 lg:max-w-60">
               Spirit-Immersed Activation
             </span>
-            <span className="relative w-9.5 h-9.5 md:w-13.25 md:h-13.25">
+            <span className="relative w-13.75 h-13 md:w-16.25 md:h-15.5">
               <Image
-                src={"/exp/asterisk.svg"}
+                src={"/exp/dove.svg"}
                 alt="Nelo Nwokike"
                 fill
                 style={{objectFit: "contain"}}
