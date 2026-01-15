@@ -37,7 +37,7 @@ const AboutSection2 = () => {
             className="absolute -bottom-12 lg:-bottom-18 left-1/2 lg:-left-4 -translate-x-1/2 lg:translate-x-0 w-65.75 lg:w-92.25 h-20.25 lg:h-28.5 bg-[#71B181]"
           ></span>
           <Image
-            src={"/prayer.jpg"}
+            src={"/prayer.png"}
             alt="Nelo Nwokike"
             fill
             style={{objectFit: "cover"}}

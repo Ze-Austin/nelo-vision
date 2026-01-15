@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className="px-6 lg:px-16 py-4 bg-linear-to-bl from-[#0DDD74]/20 via-[#0DDD74]/10 to-background"
+      className="px-6 lg:px-16 py-4 lg:pt-16 bg-linear-to-bl from-[#0DDD74]/20 via-[#0DDD74]/10 to-background"
     >
       <div
         className="flex flex-col-reverse lg:flex-row gap-12 lg:justify-between items-center"
@@ -35,7 +35,7 @@ const AboutSection = () => {
               2026 will propel the prepared into portals of power, and even the unprepared will  be granted a grace-filled grounding for gigantic moves.
             </span>
             <br />
-            <span className="font-medium italic">
+            <span className="font-bold italic">
               VISIONEERING RETREAT IS THE BRIDGE THAT GETS YOU THERE.
             </span>
             <br />
@@ -43,34 +43,34 @@ const AboutSection = () => {
               It will download to you crystal-clear blueprints, precise patterning, and navigation systems required to steer through the storms of 2026 without losing vision, velocity, or voice.
             </span>
             <br />
-            <span className="font-medium">
+            <span className="font-bold">
               This is not survival setting. This is Dominion Design.
             </span>
           </div>
         </div>
-        <div className="flex w-56.25 h-70.75 lg:w-1/2 lg:h-186">
+        <div className="flex w-56.25 h-70.75 lg:w-1/2 lg:h-188.25">
           <span className="inline lg:hidden relative w-56.25 h-70.75">
             <Image
-              src={"portrait-sm.svg"}
+              src={"/portrait.png"}
               alt="Nelo Nwokike"
               fill
-              style={{objectFit: "contain"}}
+              style={{objectFit: "cover"}}
               loading="eager"
             />
             <span
-              className="absolute bottom-0 left-0 -z-1 w-52 h-62 bg-linear-to-bl from-[#0DDD74]/60 via-[#D9A124]/60 to-background"
+              className="absolute bottom-0 left-0 -z-1 w-56.5 h-62 bg-linear-to-bl from-[#0DDD74]/60 via-[#D9A124]/60 to-background"
             ></span>
           </span>
-          <span className="hidden lg:inline relative w-full h-186">
+          <span className="hidden lg:inline relative w-full h-188.25">
             <Image
-              src={"portrait-lg.svg"}
+              src={"/portrait.png"}
               alt="Nelo Nwokike"
               fill
-              style={{objectFit: "contain"}}
+              style={{objectFit: "cover"}}
               loading="eager"
             />
             <span
-              className="absolute bottom-0 left-0 -z-1 w-[93%] h-178 bg-linear-to-bl from-[#0DDD74]/60 via-[#D9A124]/60 to-background"
+              className="absolute bottom-0 left-0 -z-1 w-full h-190 bg-linear-to-bl from-[#0DDD74]/60 via-[#D9A124]/60 to-background"
             ></span>
           </span>
         </div>
