@@ -35,6 +35,7 @@ const ExperienceSection = () => {
                 alt="Nelo Nwokike"
                 fill
                 style={{objectFit: "contain"}}
+                loading="eager"
               />
             </span>
           </div>
@@ -59,6 +60,7 @@ const ExperienceSection = () => {
                 alt="Nelo Nwokike"
                 fill
                 style={{objectFit: "contain"}}
+                loading="eager"
               />
             </span>
           </div>
@@ -83,6 +85,7 @@ const ExperienceSection = () => {
                 alt="Nelo Nwokike"
                 fill
                 style={{objectFit: "contain"}}
+                loading="eager"
               />
             </span>
           </div>
@@ -107,6 +110,7 @@ const ExperienceSection = () => {
                 alt="Nelo Nwokike"
                 fill
                 style={{objectFit: "contain"}}
+                loading="eager"
               />
             </span>
           </div>
@@ -131,6 +135,7 @@ const ExperienceSection = () => {
                 alt="Nelo Nwokike"
                 fill
                 style={{objectFit: "contain"}}
+                loading="eager"
               />
             </span>
           </div>
@@ -155,6 +160,7 @@ const ExperienceSection = () => {
                 alt="Nelo Nwokike"
                 fill
                 style={{objectFit: "contain"}}
+                loading="eager"
               />
             </span>
           </div>

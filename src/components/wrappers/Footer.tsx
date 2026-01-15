@@ -39,6 +39,7 @@ const Footer = () => {
             alt="Rotating Asterisk"
             fill
             style={{objectFit: "contain"}}
+            loading="eager"
           />
         </motion.span>
         <motion.span
@@ -51,6 +52,7 @@ const Footer = () => {
             alt="Bouncing Icon"
             fill
             style={{objectFit: "contain"}}
+            loading="eager"
           />
         </motion.span>
         <div

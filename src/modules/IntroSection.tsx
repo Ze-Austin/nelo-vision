@@ -19,6 +19,7 @@ const IntroSection = () => {
               alt="Blunt Triangle"
               fill
               style={{objectFit: "contain"}}
+              loading="eager"
             />
           </span>
         </span>

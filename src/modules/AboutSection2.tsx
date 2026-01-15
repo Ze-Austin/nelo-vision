@@ -41,6 +41,7 @@ const AboutSection2 = () => {
             alt="Nelo Nwokike"
             fill
             style={{objectFit: "cover"}}
+            loading="eager"
           />
         </span>
       </div>

@@ -55,6 +55,7 @@ const AboutSection = () => {
               alt="Nelo Nwokike"
               fill
               style={{objectFit: "contain"}}
+              loading="eager"
             />
             <span
               className="absolute bottom-0 left-0 -z-1 w-52 h-62 bg-linear-to-bl from-[#0DDD74]/60 via-[#D9A124]/60 to-background"
@@ -66,6 +67,7 @@ const AboutSection = () => {
               alt="Nelo Nwokike"
               fill
               style={{objectFit: "contain"}}
+              loading="eager"
             />
             <span
               className="absolute bottom-0 left-0 -z-1 w-[93%] h-178 bg-linear-to-bl from-[#0DDD74]/60 via-[#D9A124]/60 to-background"

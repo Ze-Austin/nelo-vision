@@ -35,6 +35,7 @@ const HeroSection = () => {
             alt="Rotating Asterisk"
             fill
             style={{objectFit: "contain"}}
+            loading="eager"
           />
         </motion.span>
         <motion.span
@@ -47,6 +48,7 @@ const HeroSection = () => {
             alt="Bouncing Icon"
             fill
             style={{objectFit: "contain"}}
+            loading="eager"
           />
         </motion.span>
         <motion.span
@@ -59,6 +61,7 @@ const HeroSection = () => {
             alt="Bouncing Icon"
             fill
             style={{objectFit: "contain"}}
+            loading="eager"
           />
         </motion.span>
         <div

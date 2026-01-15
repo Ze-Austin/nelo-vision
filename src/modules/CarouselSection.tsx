@@ -53,6 +53,7 @@ const CarouselSection = () => {
                 alt={`Picture ${index + 1}`}
                 fill
                 style={{objectFit: "contain"}}
+                loading="eager"
               />
             </SwiperSlide>
           ))}
@@ -78,6 +79,7 @@ const CarouselSection = () => {
                 alt={`Picture ${index + 1}`}
                 fill
                 style={{objectFit: "contain"}}
+                loading="eager"
               />
             </SwiperSlide>
           ))}

@@ -22,13 +22,13 @@ const AppNavigation = () => {
       >
         <span
           onClick={() => scrollToSection("/#intro")}
-          className="relative w-26 h-6 cursor-pointer transition hover:scale-105"
+          className="relative w-19.5 h-8.75 cursor-pointer transition hover:scale-105"
         >
           <Image
-            src={"logo.svg"}
+            src={"/logo.png"}
             alt="Logo"
             fill
-            style={{objectFit: "contain"}}
+            style={{objectFit: "cover"}}
             loading="eager"
           />
         </span>
@@ -38,13 +38,13 @@ const AppNavigation = () => {
       >
         <span
           onClick={() => scrollToSection("/#intro")}
-          className="relative w-29.5 h-6.75 cursor-pointer transition hover:scale-105"
+          className="relative w-25.75 h-11.5 cursor-pointer transition hover:scale-105"
         >
           <Image
-            src={"logo.svg"}
+            src={"/logo.png"}
             alt="Logo"
             fill
-            style={{objectFit: "contain"}}
+            style={{objectFit: "cover"}}
             loading="eager"
           />
         </span>
