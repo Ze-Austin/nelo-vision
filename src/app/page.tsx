@@ -5,6 +5,7 @@ import ExperienceSection from "@/modules/ExperienceSection";
 import HeroSection from "@/modules/HeroSection";
 import IntroSection from "@/modules/IntroSection";
 import PromiseSection from "@/modules/PromiseSection";
+import TargetSection from "@/modules/TargetSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <AboutSection2 />
       <ExperienceSection />
       <PromiseSection />
+      <TargetSection />
     </main>
   );
 }
