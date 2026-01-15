@@ -49,7 +49,7 @@ const AppNavigation = () => {
         </div>
       </div>
       <div
-        className={`hidden lg:flex justify-between items-center px-16 py-4 overflow-x-hidden bg-(--bgTint) duration-500 transition-all ease-in-out ${active ? "transform opacity-96" : ""}`}
+        className={`hidden lg:flex justify-between items-center px-16 py-4 overflow-x-hidden duration-500 transition-all ease-in-out ${active ? "transform backdrop-blur-[20px]" : ""}`}
       >
         <span
           onClick={() => scrollToSection("/#intro")}
