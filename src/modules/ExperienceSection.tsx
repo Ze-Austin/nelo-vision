@@ -18,7 +18,7 @@ const ExperienceSection = () => {
         </span>
       </div>
       <div
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-1 md:px-0"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 px-1 md:px-0"
       >
         <div
           className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#EFF7F0]"
