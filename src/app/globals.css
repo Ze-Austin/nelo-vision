@@ -59,7 +59,7 @@ h1 {
 
 h4 {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 27px;
   color: var(--primary);
 }
@@ -296,8 +296,8 @@ h6 {
     line-height: 55px;
   }
   h4 {
-    font-size: 44px;
-    line-height: 44px;
+    font-size: 36px;
+    line-height: 36px;
   }
   h5 {
     font-size: 32px;
@@ -400,7 +400,7 @@ h6 {
   .btn-lg {
     width: 324px;
     height: 64px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .btn-ticket {
     width: 151px;

@@ -21,7 +21,7 @@ const ExperienceSection = () => {
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 px-1 md:px-0"
       >
         <div
-          className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#EFF7F0]"
+          className="flex flex-col gap-4 px-4 py-6 lg:px-6 lg:py-8 lg:h-124 rounded-xl bg-[#EFF7F0]"
         >
           <div
             className="flex items-center justify-between"
@@ -49,7 +49,7 @@ const ExperienceSection = () => {
           </div>
         </div>
         <div
-          className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#FFFAED]"
+          className="flex flex-col gap-4 px-4 py-6 lg:px-6 lg:py-8 lg:h-124 rounded-xl bg-[#FFFAED]"
         >
           <div
             className="flex items-center justify-between"
@@ -74,7 +74,7 @@ const ExperienceSection = () => {
           </div>
         </div>
         <div
-          className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#FFF7F1]"
+          className="flex flex-col gap-4 px-4 py-6 lg:px-6 lg:py-8 lg:h-124 rounded-xl bg-[#FFF7F1]"
         >
           <div
             className="flex items-center justify-between"
@@ -99,7 +99,7 @@ const ExperienceSection = () => {
           </div>
         </div>
         <div
-          className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#FFF7F1]"
+          className="flex flex-col gap-4 px-4 py-6 lg:px-6 lg:py-8 lg:h-124 rounded-xl bg-[#FFF7F1]"
         >
           <div
             className="flex items-center justify-between"
@@ -124,7 +124,7 @@ const ExperienceSection = () => {
           </div>
         </div>
         <div
-          className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#EFF7F0]"
+          className="flex flex-col gap-4 px-4 py-6 lg:px-6 lg:py-8 lg:h-124 rounded-xl bg-[#EFF7F0]"
         >
           <div
             className="flex items-center justify-between"
@@ -149,7 +149,7 @@ const ExperienceSection = () => {
           </div>
         </div>
         <div
-          className="flex flex-col gap-4 px-4 py-6 lg:h-120 rounded-xl bg-[#FFFAED]"
+          className="flex flex-col gap-4 px-4 py-6 lg:px-6 lg:py-8 lg:h-124 rounded-xl bg-[#FFFAED]"
         >
           <div
             className="flex items-center justify-between"

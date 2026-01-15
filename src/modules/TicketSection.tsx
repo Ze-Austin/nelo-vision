@@ -29,7 +29,7 @@ const TicketSection = () => {
                   </span>
                 </div>
                 <span className="text-ticket-pr-lg pb-1.5">
-                  N90,000/$90
+                  N100,000/$100
                 </span>
               </div>
               <div className="flex flex-col gap-4">
@@ -138,7 +138,7 @@ const TicketSection = () => {
               <div className="flex gap-1.5">
                 <span className="icon-wrapper w-4 lg:w-6 h-3 lg:h-4.75"></span>
                 <span className="text-ticket-ft">
-                  * Early bird discounted offer till 21st January
+                  * Early bird discounted offer till 22nd January
                 </span>
               </div>
             </div>
@@ -255,7 +255,7 @@ const TicketSection = () => {
               <div className="flex gap-1.5">
                 <span className="icon-wrapper w-4 lg:w-6 h-3 lg:h-4.75"></span>
                 <span className="text-ticket-ft">
-                  * Early bird discounted offer till 21st January
+                  * Early bird discounted offer till 22nd January
                 </span>
               </div>
             </div>
