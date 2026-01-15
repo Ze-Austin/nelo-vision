@@ -7,7 +7,7 @@ const AboutSection2 = () => {
       className="relative bg-(--bgGreen) w-full flex flex-col lg:flex-row-reverse lg:gap-8 lg:px-16 lg:py-16"
     >
       <div
-        className="flex flex-col text-md text-justify p-6 lg:p-0 lg:w-1/2"
+        className="flex flex-col text-md text-justify px-6 py-8 lg:p-0 lg:w-1/2"
       >
         <span className="text-lg">
           OVER 100 VISIONARIES SERVED

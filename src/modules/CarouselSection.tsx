@@ -32,7 +32,7 @@ const carousel2: Slide[] = [
 
 const CarouselSection = () => {
   return (
-    <section className="px-4 lg:px-8 pt-4 pb-8">
+    <section className="px-4 lg:px-8 pt-4 pb-8 lg:pb-16">
       <div className="block lg:hidden">
         <Swiper
           pagination={false}

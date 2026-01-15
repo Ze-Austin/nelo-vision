@@ -4,7 +4,7 @@ import Image from "next/image";
 const TargetSection = () => {
   return (
     <section
-      className="flex flex-col items-center gap-4 lg:gap-8 px-6 lg:px-16 pt-4 lg:pt-8 pb-6 lg:pb-16"
+      className="flex flex-col items-center gap-4 lg:gap-8 px-6 lg:px-16 py-8 lg:py-16"
     >
       <h4 className="text-center">
         WHO IS THIS EXPERIENCE FOR?

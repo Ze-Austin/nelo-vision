@@ -6,6 +6,7 @@ import HeroSection from "@/modules/HeroSection";
 import IntroSection from "@/modules/IntroSection";
 import PromiseSection from "@/modules/PromiseSection";
 import TargetSection from "@/modules/TargetSection";
+import TicketSection from "@/modules/TicketSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <ExperienceSection />
       <PromiseSection />
       <TargetSection />
+      <TicketSection />
     </main>
   );
 }

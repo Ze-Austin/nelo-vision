@@ -4,7 +4,7 @@ const PromiseSection = () => {
   return (
     <section
       id="promise"
-      className="bg-[#ECF6ED] flex flex-col items-center gap-4 lg:gap-12 px-12 lg:px-20 py-4 lg:py-16"
+      className="bg-[#ECF6ED] flex flex-col items-center gap-4 lg:gap-12 px-12 lg:px-20 py-8 lg:py-16"
     >
       <h4 className="text-center max-w-64 lg:max-w-120">
         THE VISIONEERING 2026 PROMISE

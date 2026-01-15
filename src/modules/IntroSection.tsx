@@ -4,13 +4,13 @@ import Image from "next/image";
 const IntroSection = () => {
   return (
     <section
-      className="px-6 lg:px-16 py-4 bg-linear-to-tl from-[#0DDD74]/20 via-[#0DDD74]/10 to-background"
+      className="px-6 lg:px-16 py-8 lg:py-16 bg-linear-to-tl from-[#0DDD74]/20 via-[#0DDD74]/10 to-background"
     >
       <div
         className="flex flex-col lg:flex-row gap-6 lg:gap-16 items-center w-full"
       >
         <span className="text-intro lg:w-1/2">
-          VISIONEERING 2026 is a sacred–strategic navigation experience for individuals who sense that God is shifting systems, structures, and assignments - and refuse to move blindly or late. This is where divine direction meets disciplined strategy, equipping you to realign your life, leadership, and vision with heaven’s agenda for now and next.
+          VISIONEERING 2026 is a sacred-strategic navigation experience for individuals who sense that God is shifting systems, structures, and assignments - and refuse to move blindly or late. This is where divine direction meets disciplined strategy, equipping you to realign your life, leadership, and vision with heaven's agenda for now and next.
         </span>
         <span className="flex items-center justify-center w-full lg:w-1/2 h-full">
           <span className="relative w-full lg:w-110.75 h-24 lg:h-32.75">

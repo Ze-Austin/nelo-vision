@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className="px-6 lg:px-16 py-4 lg:pt-16 bg-linear-to-bl from-[#0DDD74]/20 via-[#0DDD74]/10 to-background"
+      className="px-6 lg:px-16 py-8 lg:py-16 bg-linear-to-bl from-[#0DDD74]/20 via-[#0DDD74]/10 to-background"
     >
       <div
         className="flex flex-col-reverse lg:flex-row gap-12 lg:justify-between items-center"
