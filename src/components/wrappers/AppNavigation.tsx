@@ -19,10 +19,10 @@ const AppNavigation = () => {
 
   return (
     <nav
-      className="fixed top-8 z-10 w-full px-4 lg:px-16"
+      className="fixed top-0 z-10 w-full px-0"
     >
       <div
-        className={`flex justify-between lg:hidden w-full p-1 duration-500 transition-all ease-in-out ${active ? "transform backdrop-blur-[20px]" : ""}`}
+        className={`flex justify-between lg:hidden w-full p-4 pb-2 duration-500 transition-all ease-in-out ${active ? "transform backdrop-blur-[20px]" : ""}`}
       >
         <span
           onClick={() => scrollToSection("/#intro")}
@@ -36,15 +36,20 @@ const AppNavigation = () => {
             loading="eager"
           />
         </span>
-        <span
-          className="w-8.25 h-7.75 icon-wrapper cursor-pointer transition hover:scale-105"
-          onClick={() => setIsOpen(true)}
-        >
-          <Hamburger />
-        </span>
+        <div className="flex gap-4 items-center">          
+          <button type="button" className="btn btn-sm">
+            Book a seat
+          </button>
+          <span
+            className="w-8.25 h-7.75 icon-wrapper cursor-pointer transition hover:scale-105"
+            onClick={() => setIsOpen(true)}
+          >
+            <Hamburger />
+          </span>
+        </div>
       </div>
       <div
-        className={`hidden lg:flex justify-between items-center px-16 py-4 rounded-[20px] overflow-x-hidden bg-(--bgTint) duration-500 transition-all ease-in-out ${active ? "transform opacity-96" : ""}`}
+        className={`hidden lg:flex justify-between items-center px-16 py-4 overflow-x-hidden bg-(--bgTint) duration-500 transition-all ease-in-out ${active ? "transform opacity-96" : ""}`}
       >
         <span
           onClick={() => scrollToSection("/#intro")}
