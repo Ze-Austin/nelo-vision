@@ -4,6 +4,7 @@ import CarouselSection from "@/modules/CarouselSection";
 import ExperienceSection from "@/modules/ExperienceSection";
 import HeroSection from "@/modules/HeroSection";
 import IntroSection from "@/modules/IntroSection";
+import PromiseSection from "@/modules/PromiseSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutSection />
       <AboutSection2 />
       <ExperienceSection />
+      <PromiseSection />
     </main>
   );
 }

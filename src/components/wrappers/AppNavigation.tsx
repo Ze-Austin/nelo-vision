@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Hamburger, X } from "@/theme/icons";
 import usePageScroll from "@/hooks/usePageScroll";
 import Image from "next/image";

@@ -108,6 +108,18 @@ h6 {
   line-height: 15px;
 }
 
+.text-2xs {
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 12px;
+}
+
+.text-3xs {
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
 .text-hero {
   font-size: 12px;
   font-weight: 400;
@@ -242,6 +254,14 @@ h6 {
     line-height: 28px;
   }
   .text-xs {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .text-2xs {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .text-3xs {
     font-size: 16px;
     line-height: 24px;
   }

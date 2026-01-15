@@ -1,3 +1,9 @@
+const GreenTick = () => (
+  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M6.67365 0C3.00314 0 0 3.00314 0 6.67365C0 10.3441 3.00314 13.3473 6.67365 13.3473C10.3441 13.3473 13.3473 10.3441 13.3473 6.67365C13.3473 3.00314 10.3441 0 6.67365 0ZM5.33892 10.0105L2.00209 6.67365L2.94308 5.73266L5.33892 8.12183L10.4042 3.05653L11.3452 4.00419L5.33892 10.0105Z" fill="#479A5B"/>
+  </svg>
+);
+
 const Hamburger = () => (
   <svg width="33" height="31" viewBox="0 0 33 31" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="33" height="31" rx="5" fill="white"/>
@@ -14,6 +20,7 @@ const X = () => (
 );
 
 export {
+  GreenTick,
   Hamburger,
   X
 }
