@@ -8,21 +8,13 @@ import "swiper/css/pagination";
 
 export interface Slide {
   image: string;
-  name: string;
-  quote: string;
 }
 
 const data: Slide[] = [
-  {
-    image: "/testimonials/tochukwu-enemuo.jpeg",
-    name: "Tochukwu Enemuo",
-    quote: "I experienced decision paralysis for two years, feeling too scared to leave my well-paying job. Even though I had another offer at the time, it was difficult to blindly move to a different company. However, when I attended the “WINNING Q2” Session held by Phoszade in 2025, I gained so much clarity that I immediately wrote my resignation and acceptance letters. I can boldly say that this is the best career decision I have ever made."
-  },
-  {
-    image: "/testimonials/tochukwu-enemuo.jpeg",
-    name: "Tochukwu Enemuo",
-    quote: "I experienced decision paralysis for two years, feeling too scared to leave my well-paying job. Even though I had another offer at the time, it was difficult to blindly move to a different company. However, when I attended the “WINNING Q2” Session held by Phoszade in 2025, I gained so much clarity that I immediately wrote my resignation and acceptance letters. I can boldly say that this is the best career decision I have ever made."
-  },
+  {image: "/testimonials/testimonial-01.png"},
+  {image: "/testimonials/testimonial-02.png"},
+  {image: "/testimonials/testimonial-03.png"},
+  {image: "/testimonials/testimonial-04.png"},
 ];
 
 const TestimonialSection = () => {
@@ -52,22 +44,6 @@ const TestimonialSection = () => {
               style={{objectFit: "cover", borderRadius: "8px"}}
               loading="eager"
             />
-            {/* <div className="flex flex-col items-center gap-2">
-              <span
-                className="flex items-center justify-center rounded-sm bg-[#F3F3F3] w-23.5 h-22.75"
-              >
-                <span className="relative w-14.25 h-10.5">
-                  <Image
-                    src={item.image}
-                    alt={`Testimonial ${index + 1}`}
-                    fill
-                    style={{objectFit: "contain"}}
-                    loading="eager"
-                  />
-                </span>
-              </span>
-              <span className="text-name">{item.name}</span>
-            </div> */}
           </SwiperSlide>
         ))}
       </Swiper>
