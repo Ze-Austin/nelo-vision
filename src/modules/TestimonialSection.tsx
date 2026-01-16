@@ -15,6 +15,11 @@ const data: Slide[] = [
   {image: "/testimonials/testimonial-02.png"},
   {image: "/testimonials/testimonial-03.png"},
   {image: "/testimonials/testimonial-04.png"},
+  {image: "/testimonials/testimonial-05.png"},
+  {image: "/testimonials/testimonial-06.png"},
+  {image: "/testimonials/testimonial-07.png"},
+  {image: "/testimonials/testimonial-08.png"},
+  {image: "/testimonials/testimonial-09.png"},
 ];
 
 const TestimonialSection = () => {
