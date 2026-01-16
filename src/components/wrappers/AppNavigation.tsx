@@ -37,10 +37,12 @@ const AppNavigation = () => {
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </span>
-        <div className="flex gap-4 items-center">          
-          <button type="button" className="btn btn-sm">
-            Book a seat
-          </button>
+        <div className="flex gap-4 items-center"> 
+          <Link href={"https://selar.com/3963gmx327"} target="_blank">
+            <button type="button" className="btn btn-sm">
+              Book a seat
+            </button>
+          </Link>
           <span
             className="w-8.25 h-7.75 icon-wrapper cursor-pointer transition hover:scale-105"
             onClick={() => setIsOpen(true)}
@@ -93,9 +95,11 @@ const AppNavigation = () => {
             Tickets
           </Link>
         </div>
-        <button type="button" className="btn btn-sm">
-          Book a seat
-        </button>
+        <Link href={"https://selar.com/3963gmx327"} target="_blank">
+          <button type="button" className="btn btn-sm">
+            Book a seat
+          </button>
+        </Link>
       </div>
       {/* Mobile Sidebar */}
       <div
@@ -150,9 +154,11 @@ const AppNavigation = () => {
             Tickets
           </Link>
         </div>
-        <button type="button" className="btn btn-sm">
-          Book a seat
-        </button>
+        <Link href={"https://selar.com/3963gmx327"} target="_blank">
+          <button type="button" className="btn btn-sm">
+            Book a seat
+          </button>
+        </Link>
       </div>
     </nav>
   )

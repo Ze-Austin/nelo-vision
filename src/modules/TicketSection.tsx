@@ -1,4 +1,5 @@
 import { BlackTick } from "@/theme/icons";
+import Link from "next/link";
 
 const TicketSection = () => {
   return (
@@ -143,9 +144,11 @@ const TicketSection = () => {
               </div>
             </div>
           </div>
-          <button type="button" className="btn btn-lg">
-            Get your ticket
-          </button>
+          <Link href={"https://selar.com/3963gmx327"} target="_blank">
+            <button type="button" className="btn btn-lg">
+              Get your ticket
+            </button>
+          </Link>
         </div>
         <div
           className="flex flex-col items-center justify-between h-112 lg:h-184 p-6 lg:p-10 bg-background rounded-[10px]"
@@ -260,9 +263,11 @@ const TicketSection = () => {
               </div>
             </div>
           </div>
-          <button type="button" className="btn btn-lg">
-            Get your ticket
-          </button>
+          <Link href={"https://selar.com/3963gmx327"} target="_blank">
+            <button type="button" className="btn btn-lg">
+              Get your ticket
+            </button>
+          </Link>
         </div>
       </div>
     </section>

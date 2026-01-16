@@ -1,4 +1,5 @@
 import { GreenTick } from "@/theme/icons";
+import Link from "next/link";
 
 const PromiseSection = () => {
   return (
@@ -131,9 +132,11 @@ const PromiseSection = () => {
           </div>
         </div>
       </div>
-      <button type="button" className="btn btn-md">
-        Book a seat
-      </button>
+      <Link href={"https://selar.com/3963gmx327"} target="_blank">
+        <button type="button" className="btn btn-md">
+          Book a seat
+        </button>
+      </Link>
     </section>
   )
 };
