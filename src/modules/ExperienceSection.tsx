@@ -175,7 +175,7 @@ const ExperienceSection = () => {
           </div>
           <div className="flex flex-col text-sm">
             <span>
-              Through sacred worship and immersive Visionary Art encounters, we will formally consecrate the year ahead - establishing 2026 with authoritative declarations, strategic activations, Scriptural affirmations, and a clear commissioning. This session unfolds within a charged spiritual environment where divine intervention is tangible, transformation is ignited, and grace is imparted with precision—marking participants for alignment, empowerment, and forward momentum.
+              Through intimate worship and immersive Visionary Art encounters, we will formally consecrate the year ahead - establishing 2026 with authoritative declarations, strategic activations, Scriptural affirmations, and a clear commissioning. This session unfolds within a charged spiritual environment where divine intervention is tangible, transformation is ignited, and grace is imparted with precision—marking participants for alignment, empowerment, and forward momentum.
             </span>
           </div>
         </div>

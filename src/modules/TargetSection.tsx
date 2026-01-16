@@ -13,7 +13,7 @@ const TargetSection = () => {
         <div className="flex flex-col gap-6 lg:gap-0 lg:justify-between">
           <div className="flex flex-col text-md text-justify">
             <span>
-              The VISIONEERING Retreat is designed for purpose-driven individuals across sectors, vision carriers, founders and chief executives, entrepreneurs, creatives, social change agents, professionals, and students - each navigating pivotal decisions and seeking clarity for what lies ahead.
+              The VISIONEERING Retreat is designed for purpose-driven individuals across sectors, vision carriers, <b>founders</b> and <b>chief executives</b>, <b>entrepreneurs</b>, <b>creatives</b>, <b>social change agents</b>, <b>professionals</b>, and <b>graduates</b> - each navigating pivotal decisions and seeking clarity for what lies ahead.
             </span>
             <br />
             <span>

@@ -9,7 +9,7 @@ const AboutSection2 = () => {
       <div
         className="flex flex-col text-md text-justify px-6 py-8 lg:p-0 lg:w-1/2"
       >
-        <span className="text-lg">
+        <span className="text-lg font-bold!">
           OVER 100 VISIONARIES SERVED
         </span>
         <br />
@@ -26,7 +26,7 @@ const AboutSection2 = () => {
         </span>
         <br />
         <span>
-          VISIONEERING 2026 is not an event. It is an encounter with alignment, authority, and assignment. 2026 is a year of activation and ascent - where concealed capacity is summoned, and you finally operate in the magnitude you were engineered for.
+          <b>VISIONEERING 2026 is not an event.</b> It is an encounter with alignment, authority, and assignment. 2026 is a year of activation and ascent - where concealed capacity is summoned, and you finally operate in the magnitude you were engineered for.
         </span>
       </div>
       <div
