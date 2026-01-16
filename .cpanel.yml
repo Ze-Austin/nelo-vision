@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/phoszad2/public_html/visioneering2026/
+    - /usr/bin/rsync -avz --exclude '.git' --exclude '.next' --exclude 'node_modules' ./ $DEPLOYPATH
