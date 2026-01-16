@@ -22,7 +22,7 @@ const HeroSection = () => {
           <span className="lg:max-w-130 text-hero">
             A Spirit-Led, Strategy-Supported Life Design & Vision Crafting Experience for a Year Of Divine Realignment, Intentional Repositioning, and Visionary Execution.
           </span>
-          <Link href={"https://selar.com/3963gmx327"} target="_blank">
+          <Link href="/#tickets">
             <button type="button" className="btn btn-md">
               Register Now
             </button>

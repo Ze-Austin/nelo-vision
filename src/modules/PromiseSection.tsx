@@ -132,7 +132,7 @@ const PromiseSection = () => {
           </div>
         </div>
       </div>
-      <Link href={"https://selar.com/3963gmx327"} target="_blank">
+      <Link href="/#tickets">
         <button type="button" className="btn btn-md">
           Book a seat
         </button>

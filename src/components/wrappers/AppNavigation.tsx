@@ -24,8 +24,8 @@ const AppNavigation = () => {
       <div
         className={`flex justify-between lg:hidden w-full p-4 pb-2 duration-500 transition-all ease-in-out ${active ? "transform backdrop-blur-[20px]" : ""}`}
       >
-        <span
-          onClick={() => scrollToSection("/#intro")}
+        <Link
+          href="/#intro"
           className="relative w-19.5 h-8.75 cursor-pointer transition hover:scale-105"
         >
           <Image
@@ -36,9 +36,9 @@ const AppNavigation = () => {
             loading="eager"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
-        </span>
+        </Link>
         <div className="flex gap-4 items-center"> 
-          <Link href={"https://selar.com/3963gmx327"} target="_blank">
+          <Link href="/#tickets">
             <button type="button" className="btn btn-sm">
               Book a seat
             </button>
@@ -54,8 +54,8 @@ const AppNavigation = () => {
       <div
         className={`hidden lg:flex justify-between items-center px-16 py-4 overflow-x-hidden duration-500 transition-all ease-in-out ${active ? "transform backdrop-blur-[20px]" : ""}`}
       >
-        <span
-          onClick={() => scrollToSection("/#intro")}
+        <Link
+          href="/#intro"
           className="relative w-25.75 h-11.5 cursor-pointer transition hover:scale-105"
         >
           <Image
@@ -66,7 +66,7 @@ const AppNavigation = () => {
             loading="eager"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
-        </span>
+        </Link>
         <div
           className="flex items-center gap-12"
         >
@@ -95,7 +95,7 @@ const AppNavigation = () => {
             Tickets
           </Link>
         </div>
-        <Link href={"https://selar.com/3963gmx327"} target="_blank">
+        <Link href="/#tickets">
           <button type="button" className="btn btn-sm">
             Book a seat
           </button>
@@ -154,7 +154,7 @@ const AppNavigation = () => {
             Tickets
           </Link>
         </div>
-        <Link href={"https://selar.com/3963gmx327"} target="_blank">
+        <Link href="/#tickets">
           <button type="button" className="btn btn-sm">
             Book a seat
           </button>
