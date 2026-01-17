@@ -5,6 +5,7 @@ import ExperienceSection from "@/modules/ExperienceSection";
 import HeroSection from "@/modules/HeroSection";
 import IntroSection from "@/modules/IntroSection";
 import PromiseSection from "@/modules/PromiseSection";
+import SolutionSection from "@/modules/SolutionSection";
 import TargetSection from "@/modules/TargetSection";
 import TestimonialSection from "@/modules/TestimonialSection";
 import TicketSection from "@/modules/TicketSection";
@@ -20,6 +21,7 @@ export default function Home() {
       <ExperienceSection />
       <PromiseSection />
       <TargetSection />
+      <SolutionSection />
       <TicketSection />
       <TestimonialSection />
     </main>

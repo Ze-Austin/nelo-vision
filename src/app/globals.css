@@ -62,6 +62,7 @@ h4 {
   font-weight: 800;
   line-height: 27px;
   color: var(--primary);
+  text-transform: uppercase;
 }
 
 h5 {
@@ -195,6 +196,12 @@ h6 {
   font-weight: 400;
   line-height: 17px;
   color: var(--black);
+}
+
+.text-solve {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 .text-footer {
@@ -382,6 +389,10 @@ h6 {
   .text-quote {
     font-size: 23px;
     line-height: 45px;
+  }
+  .text-solve {
+    font-size: 25px;
+    line-height: 34px;
   }
   .text-footer  {
     font-size: 30px;
