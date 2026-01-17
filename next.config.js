@@ -1,6 +1,8 @@
-import type { NextConfig } from "next";
+// @ts-check
+ 
+/** @type {import('next').NextConfig} */
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   /* config options here */
   output: 'standalone',
 };
