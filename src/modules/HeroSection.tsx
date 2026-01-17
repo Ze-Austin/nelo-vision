@@ -1,9 +1,16 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 
 const HeroSection = () => {
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section
       id="intro"
@@ -22,11 +29,13 @@ const HeroSection = () => {
           <span className="lg:max-w-130 text-hero">
             A Spirit-Led, Strategy-Supported Life Design & Vision Crafting Experience for a Year Of Divine Realignment, Intentional Repositioning, and Visionary Execution.
           </span>
-          <Link href="/#tickets">
-            <button type="button" className="btn btn-md">
-              Register Now
-            </button>
-          </Link>
+          <button
+            type="button"
+            className="btn btn-md"
+            onClick={() => scrollToSection("tickets")}
+          >
+            Register Now
+          </button>
         </div>
         <motion.span
           className="absolute -z-1 left-[5%] lg:left-[10%] top-0 lg:top-7 w-9.5 h-9.5 lg:w-16.75 lg:h-16.75"

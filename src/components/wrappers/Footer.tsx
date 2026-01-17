@@ -1,9 +1,16 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 
 const Footer = () => {
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <footer
       className="flex items-center justify-center bg-(--darkCyan) text-background"
@@ -13,11 +20,13 @@ const Footer = () => {
           <span className="text-footer max-w-193.75">
             Visioneering Retreat 2026 is the bridge that gets you to unlock crystal-clear blueprints, precise patterning, and navigation systems required to steer through the storms of 2026.
           </span>
-          <Link href="/#tickets">
-            <button type="button" className="btn btn-xl">
-              Begin your visiononeering journey
-            </button>
-          </Link>
+          <button
+            type="button"
+            className="btn btn-xl"
+            onClick={() => scrollToSection("tickets")}
+          >
+            Begin your visiononeering journey
+          </button>
         </div>
         <div className="flex flex-col-reverse gap-6 lg:gap-0 lg:grid lg:grid-cols-2 items-center">
           <span className="text-copy flex flex-col lg:flex-row items-center gap-1">

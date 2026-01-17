@@ -1,7 +1,15 @@
+"use client";
 import { GreenTick } from "@/theme/icons";
-import Link from "next/link";
 
 const PromiseSection = () => {
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section
       id="promise"
@@ -132,11 +140,13 @@ const PromiseSection = () => {
           </div>
         </div>
       </div>
-      <Link href="/#tickets">
-        <button type="button" className="btn btn-md">
-          Book a seat
-        </button>
-      </Link>
+      <button
+        type="button"
+        className="btn btn-md"
+        onClick={() => scrollToSection("tickets")}
+      >
+        Book a seat
+      </button>
     </section>
   )
 };

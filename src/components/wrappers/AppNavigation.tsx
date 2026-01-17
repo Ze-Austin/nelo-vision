@@ -3,7 +3,6 @@ import { useRef, useState } from "react";
 import { Hamburger, X } from "@/theme/icons";
 import usePageScroll from "@/hooks/usePageScroll";
 import Image from "next/image";
-import Link from "next/link";
 
 const AppNavigation = () => {
   const { active } = usePageScroll();
@@ -24,8 +23,9 @@ const AppNavigation = () => {
       <div
         className={`flex justify-between lg:hidden w-full p-4 pb-2 duration-500 transition-all ease-in-out ${active ? "transform backdrop-blur-[20px]" : ""}`}
       >
-        <Link
-          href="/#intro"
+        <button
+          type="button"
+          onClick={() => scrollToSection("intro")}
           className="relative w-19.5 h-8.75 cursor-pointer transition hover:scale-105"
         >
           <Image
@@ -36,13 +36,15 @@ const AppNavigation = () => {
             loading="eager"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
-        </Link>
-        <div className="flex gap-4 items-center"> 
-          <Link href="/#tickets">
-            <button type="button" className="btn btn-sm">
-              Book a seat
-            </button>
-          </Link>
+        </button>
+        <div className="flex gap-4 items-center">
+          <button
+            type="button"
+            onClick={() => scrollToSection("tickets")}
+            className="btn btn-sm"
+          >
+            Book a seat
+          </button>
           <span
             className="w-8.25 h-7.75 icon-wrapper cursor-pointer transition hover:scale-105"
             onClick={() => setIsOpen(true)}
@@ -54,8 +56,9 @@ const AppNavigation = () => {
       <div
         className={`hidden lg:flex justify-between items-center px-16 py-4 overflow-x-hidden duration-500 transition-all ease-in-out ${active ? "transform backdrop-blur-[20px]" : ""}`}
       >
-        <Link
-          href="/#intro"
+        <button
+          type="button"
+          onClick={() => scrollToSection("intro")}
           className="relative w-25.75 h-11.5 cursor-pointer transition hover:scale-105"
         >
           <Image
@@ -66,40 +69,46 @@ const AppNavigation = () => {
             loading="eager"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
-        </Link>
+        </button>
         <div
           className="flex items-center gap-12"
         >
-          <Link
-            href="/#about" className="navlink"
-            onClick={() => scrollToSection("/#about")}
+          <button
+            type="button"
+            onClick={() => scrollToSection("about")}
+            className="navlink"
           >
             About
-          </Link>
-          <Link
-            href="/#experience" className="navlink"
-            onClick={() => scrollToSection("/#experience")}
+          </button>
+          <button
+            type="button"
+            onClick={() => scrollToSection("experience")}
+            className="navlink"
           >
             Experience
-          </Link>
-          <Link
-            href="/#promise" className="navlink"
-            onClick={() => scrollToSection("/#promise")}
+          </button>
+          <button
+            type="button"
+            onClick={() => scrollToSection("promise")}
+            className="navlink"
           >
             Promise
-          </Link>
-          <Link
-            href="/#tickets" className="navlink"
-            onClick={() => scrollToSection("/#tickets")}
+          </button>
+          <button
+            type="button"
+            className="navlink cursor-pointer"
+            onClick={() => scrollToSection("tickets")}
           >
             Tickets
-          </Link>
-        </div>
-        <Link href="/#tickets">
-          <button type="button" className="btn btn-sm">
-            Book a seat
           </button>
-        </Link>
+        </div>
+        <button
+          type="button"
+          className="btn btn-sm"
+          onClick={() => scrollToSection("tickets")}
+        >
+          Book a seat
+        </button>
       </div>
       {/* Mobile Sidebar */}
       <div
@@ -117,48 +126,57 @@ const AppNavigation = () => {
           </span>
         </div>
         <div className="flex flex-col gap-8">
-          <Link
-            href="/#about" className="navlink"
+          <button
+            type="button"
+            className="navlink text-start"
             onClick={() => {
               setIsOpen(false);
-              scrollToSection("/#about");
+              scrollToSection("about");
             }}
           >
             About
-          </Link>
-          <Link
-            href="/#experience" className="navlink"
+          </button>
+          <button
+            type="button"
+            className="navlink text-start"
             onClick={() => {
               setIsOpen(false);
-              scrollToSection("/#experience");
+              scrollToSection("experience");
             }}
           >
             Experience
-          </Link>
-          <Link
-            href="/#promise" className="navlink"
+          </button>
+          <button
+            type="button"
+            className="navlink text-start"
             onClick={() => {
               setIsOpen(false);
-              scrollToSection("/#promise");
+              scrollToSection("promise");
             }}
           >
             Promise
-          </Link>
-          <Link
-            href="/#tickets" className="navlink"
+          </button>
+          <button
+            type="button"
+            className="navlink text-start"
             onClick={() => {
               setIsOpen(false);
-              scrollToSection("/#tickets");
+              scrollToSection("tickets");
             }}
           >
             Tickets
-          </Link>
-        </div>
-        <Link href="/#tickets">
-          <button type="button" className="btn btn-sm">
-            Book a seat
           </button>
-        </Link>
+        </div>
+        <button
+          type="button"
+          className="btn btn-sm"
+          onClick={() => {
+            setIsOpen(false);
+            scrollToSection("tickets");
+          }}
+        >
+          Book a seat
+        </button>
       </div>
     </nav>
   )
