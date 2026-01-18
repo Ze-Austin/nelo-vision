@@ -35,7 +35,7 @@ const TestimonialSection = () => {
         modules={[Autoplay, Navigation, Pagination]}
         spaceBetween={10}
         slidesPerView={1}
-        className="relative h-76 md:h-160 w-full md:w-180"
+        className="relative h-76 sm:h-90 md:h-160 w-full sm:w-90 md:w-180"
         navigation={false}
       >
         {data.map((item, index) => (

@@ -10,17 +10,7 @@ export interface Slide {
   image: string;
 }
 
-const carousel1: Slide[] = [
-  {image: "/carousel/carousel-001.jpg"},
-//   {image: "/carousel/carousel-002.png"},
-  {image: "/carousel/carousel-003.png"},
-//   {image: "/carousel/carousel-004.png"},
-  {image: "/carousel/carousel-005.jpg"},
-  {image: "/carousel/carousel-006.png"},
-  {image: "/carousel/carousel-007.png"},
-];
-
-const carousel2: Slide[] = [
+const carousel: Slide[] = [
   {image: "/carousel/carousel-001.jpg"},
   {image: "/carousel/carousel-002.png"},
   {image: "/carousel/carousel-003.png"},
@@ -39,12 +29,12 @@ const CarouselSection = () => {
           autoplay={true}
           loop={true}
           modules={[Autoplay, Navigation, Pagination]}
-          spaceBetween={50}
+          spaceBetween={20}
           slidesPerView={1}
           className="relative w-full h-44 md:h-70"
           navigation={false}
         >
-          {carousel1.map((item, index) => (
+          {carousel.map((item, index) => (
             <SwiperSlide key={index}
               className="relative w-full md:w-165 h-39 md:h-64.75"
             >
@@ -71,7 +61,7 @@ const CarouselSection = () => {
           className="relative w-full h-125"
           navigation={false}
         >
-          {carousel2.map((item, index) => (
+          {carousel.map((item, index) => (
             <SwiperSlide key={index}
               className="relative w-304 h-120"
             >

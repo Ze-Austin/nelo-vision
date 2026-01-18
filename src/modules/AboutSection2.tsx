@@ -30,9 +30,9 @@ const AboutSection2 = () => {
         </span>
       </div>
       <div
-        className="flex w-full h-71.25 lg:w-1/2 lg:h-116.5"
+        className="flex w-full h-71.25 lg:w-1/2 sm:h-116.5"
       >
-        <span className="relative w-full h-71.25 lg:h-116.5">
+        <span className="relative w-full h-71.25 sm:h-116.5">
           <span
             className="absolute -bottom-12 lg:-bottom-18 left-1/2 lg:-left-4 -translate-x-1/2 lg:translate-x-0 w-65.75 lg:w-92.25 h-20.25 lg:h-28.5 bg-[#71B181]"
           ></span>
